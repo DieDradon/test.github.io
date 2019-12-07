@@ -1,0 +1,96 @@
+body{
+    background-color: #292e35;
+    color: #292e35;
+  }
+
+
+/* header menu */
+.menu{
+    width: 80px;
+    position: fixed;
+    margin-left:0 auto;
+    padding: 0;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+  }
+.menu li a{
+    text-decoration: none;
+    position: relative;
+    color: #eeeeee;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: sans-serif;
+    display: block;
+    overflow: hidden;
+    transition: 0.7s all;
+    padding: 14px 30px;
+    text-transform: uppercase;
+}
+.menu li a:before{
+    content: '';
+    width: 60px;
+    position: absolute;
+    border-bottom: 8px solid #eeeeee;
+    bottom: 0;
+    right: 350px;
+    transition: 0.7s all;
+}
+.menu li a:hover:before{
+    right: 0;
+}
+
+/* content block*/
+.main {
+    width: 80vh;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding : 15px;
+}
+
+
+.img-container {
+    
+    text-align: center;
+}
+.shadow-box img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+
+.img-right{
+    text-align: right;
+    margin-right: 10px;
+}
+
+.img-left{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.big-size img{
+    width:98%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cursive-text{
+    margin-bottom: 20px;
+}
+
+/* set fonts*/
+.text{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Abril Fatface', cursive;
+}
+.cursive-text {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Amatic SC', cursive;
+    font-size: 16pt;
+}
