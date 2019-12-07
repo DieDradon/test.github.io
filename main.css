@@ -95,7 +95,7 @@ font-family: 'Abril Fatface', cursive;
     font-size: 16pt;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .main {
         margin-right: 0;
         width:60%;
